@@ -59,11 +59,21 @@ h2 {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
+    
+}
+.messageblock{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #84D4AC; /* Light gray background for the bubble */
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+    max-width: 50%;
+    word-wrap: break-word;
+
 }
 
-.muted{
-    font-size: 10px;
+.timemuted{
+    font-size: 15px;
     color: darkgray;
 }

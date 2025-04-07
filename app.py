@@ -41,7 +41,7 @@ def home():
         
         room = code
         if create != False:
-            room = generate_uniqe_code(4)
+            room = generate_uniqe_code(5)
             rooms[room] = {"members":0, "messages":[]}
         elif code not in rooms:
             return render_template("home.html", error="Room does not exists.", code=code, name=name)
@@ -60,7 +60,7 @@ def room():
 
     return render_template("room.html", code=room, messages = rooms[room]["messages"])
  
-
+# Socket message handling
 @socketio.on("message")
 def message(data):
     room = session.get("room")
@@ -75,6 +75,7 @@ def message(data):
     rooms[room]["messages"].append(content)
     print(f"{session.get('name')} said: {data['data']}")
 
+# Socket connection
 @socketio.on("connect")
 def connect(auth):
     room = session.get("room")
