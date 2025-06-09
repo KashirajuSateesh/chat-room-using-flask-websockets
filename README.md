@@ -1,6 +1,6 @@
 # 💬 Real-Time Chat Room App with Flask & Socket.IO
 
-This is a real-time chat room web application built using **Flask** and **Flask-SocketIO**. Users can create or join chat rooms using a unique code, exchange messages in real time, and leave the room anytime. This project demonstrates the core concepts of WebSocket communication and real-time broadcasting in a lightweight Python-based backend.
+This is a real-time chat room web application built using **Flask** and **Flask-SocketIO**. Users can create or join chat rooms using a unique code, exchange messages in real time, and leave the room anytime. This project demonstrates the core concepts of WebSocket communication and real-time broadcasting in a lightweight Python-based backend code.
 
 ## 📁 Project Structure
 
@@ -26,8 +26,6 @@ This is a real-time chat room web application built using **Flask** and **Flask-
 | Home Page | Chat Room |
 |-----------|-----------|
 | ![Home](assests/CreateRoom.png) | ![Room](assests/Chat.png) |
-
-> _Screenshots are just examples — replace with your own from `/static/assets/` or update accordingly._
 
 ## 🚀 Features
 
