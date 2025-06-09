@@ -25,7 +25,7 @@ This is a real-time chat room web application built using **Flask** and **Flask-
 
 | Home Page | Chat Room |
 |-----------|-----------|
-| ![Home](assets/CreateRoom.png) | ![Room](assets/Chat.png) |
+| ![Home](assests/CreateRoom.png) | ![Room](assests/Chat.png) |
 
 > _Screenshots are just examples — replace with your own from `/static/assets/` or update accordingly._
 
